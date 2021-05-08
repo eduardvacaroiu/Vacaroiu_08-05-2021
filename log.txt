@@ -1,0 +1,186 @@
+commit d6f177850195239a4c1d54eb1bf6ace53e688e44
+Merge: aaf5cb3 1001bc3
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 12:27:47 2021 +0200
+
+    risoluzioni conflitti
+
+commit aaf5cb379ada628876ee2e8211142f659a43707f
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 12:21:26 2021 +0200
+
+    Aggiunta nuova immagine. Modificata regola css
+
+diff --git a/css/style.css b/css/style.css
+index c03706a..1b53239 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -1,5 +1,5 @@
+ h2
+ {
+ 
+-  color: red;
++  color: green;
+ }
+\ No newline at end of file
+diff --git a/img/mare2.jpg b/img/mare2.jpg
+new file mode 100644
+index 0000000..0678eae
+Binary files /dev/null and b/img/mare2.jpg differ
+diff --git a/localitaMare.html b/localitaMare.html
+index 931b7a0..dbaaa0e 100644
+--- a/localitaMare.html
++++ b/localitaMare.html
+@@ -7,8 +7,8 @@
+     <title>LocalitaMare</title>
+ </head>
+ <body>
+-    <h2 class="text-red">Caraibi</h2>
+-    <img src="img/mare.jpeg">
++    <h2 class="text-green">Caraibi</h2>
++    <img src="img/mare2.jpg">
+ 
+     <link href="./css/style.css" type="text/css" rel="stylesheet">
+ 
+
+commit 1001bc36d301a18c9cf0f95bcf2481524b0b0ff6
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 12:16:37 2021 +0200
+
+    Aggiunta regola al css da applicare al tag h2
+
+diff --git a/css/style.css b/css/style.css
+index c03706a..92ca123 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -2,4 +2,5 @@ h2
+ {
+ 
+   color: red;
++  text-align: center;
+ }
+\ No newline at end of file
+diff --git a/localitaMare.html b/localitaMare.html
+index 931b7a0..c08a12b 100644
+--- a/localitaMare.html
++++ b/localitaMare.html
+@@ -7,7 +7,7 @@
+     <title>LocalitaMare</title>
+ </head>
+ <body>
+-    <h2 class="text-red">Caraibi</h2>
++    <h2 class="text-center">Caraibi</h2>
+     <img src="img/mare.jpeg">
+ 
+     <link href="./css/style.css" type="text/css" rel="stylesheet">
+
+commit 83e16d67eec7ff853aeaec9e90d6a5f4b117cc8f
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 12:06:29 2021 +0200
+
+    aggiunto file style.css
+
+diff --git a/css/style.css b/css/style.css
+new file mode 100644
+index 0000000..c03706a
+--- /dev/null
++++ b/css/style.css
+@@ -0,0 +1,5 @@
++h2
++{
++
++  color: red;
++}
+\ No newline at end of file
+diff --git a/localitaMare.html b/localitaMare.html
+index def118e..931b7a0 100644
+--- a/localitaMare.html
++++ b/localitaMare.html
+@@ -7,6 +7,10 @@
+     <title>LocalitaMare</title>
+ </head>
+ <body>
+-    <h2>Caraibi</h2>
++    <h2 class="text-red">Caraibi</h2>
++    <img src="img/mare.jpeg">
++
++    <link href="./css/style.css" type="text/css" rel="stylesheet">
++
+ </body>
+ </html>
+\ No newline at end of file
+
+commit c759f7615a05d6b50f309fefb65b87eac3e02ffe
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 11:58:10 2021 +0200
+
+    aggiunta pagina web localitaMare.html
+
+diff --git a/localitaMare.html b/localitaMare.html
+new file mode 100644
+index 0000000..def118e
+--- /dev/null
++++ b/localitaMare.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta http-equiv="X-UA-Compatible" content="IE=edge">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>LocalitaMare</title>
++</head>
++<body>
++    <h2>Caraibi</h2>
++</body>
++</html>
+\ No newline at end of file
+
+commit e62ab0acad756879602158945ff11b444726caf1
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 11:55:50 2021 +0200
+
+    prima commit
+
+diff --git a/img/mare.jpeg b/img/mare.jpeg
+new file mode 100644
+index 0000000..8f189d1
+Binary files /dev/null and b/img/mare.jpeg differ
+
+commit 3677db23fc99dad896f50679d6e93cb3824479e6
+Author: ranalliloris <vacaroiugeorgeeduard@isisdavinci.eu>
+Date:   Sat May 8 11:54:07 2021 +0200
+
+    prima commit
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..5b60912
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta http-equiv="X-UA-Compatible" content="IE=edge">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Mare</title>
++</head>
++<body>
++    <h1>Mare</h1>
++    <p id="text-bold"></p>
++    <script src="js/script.js">
++    </script>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/js/script.js b/js/script.js
+new file mode 100644
+index 0000000..267f84c
+--- /dev/null
++++ b/js/script.js
+@@ -0,0 +1,2 @@
++var mare=document.getElementById("text-bold");
++mare.innerHTML="Questo sito è stato creato durante il compito di Tecnologie";
+\ No newline at end of file

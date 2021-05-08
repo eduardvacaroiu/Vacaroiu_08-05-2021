@@ -1,0 +1,9 @@
+*   d6f1778 (HEAD -> master, origin/master) risoluzioni conflitti
+|\  
+| * 1001bc3 (origin/dev, dev) Aggiunta regola al css da applicare al tag h2
+* | aaf5cb3 Aggiunta nuova immagine. Modificata regola css
+|/  
+* 83e16d6 aggiunto file style.css
+* c759f76 aggiunta pagina web localitaMare.html
+* e62ab0a prima commit
+* 3677db2 prima commit
